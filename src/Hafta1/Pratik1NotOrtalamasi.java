@@ -34,6 +34,5 @@ public class Pratik1NotOrtalamasi {
 
         //Sınıfı geçme durumunu kontrol edelim
         System.out.println(sonuc >= 60 ? "Sınıfı geçti" : "Sınıfta kaldı");
-
     }
 }
