@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class KDVHesaplama {
     public static void main(String[] args) {
         //Değişkenleri tanımla
-        double tutar, kdvtutar, kdvmiktar, kdvoran;
+        double tutar, kdvTutar, kdvMiktar, kdvOran;
 
         //Scanner sınıfını tanımlama ve Kullanıcıdan tutar alma
         Scanner input = new Scanner(System.in);
@@ -12,14 +12,14 @@ public class KDVHesaplama {
         tutar = input.nextDouble();
 
         //KDV tutarını hesaplama
-        kdvoran = (tutar >= 1000) ? 0.08 : 0.18;
-        kdvmiktar = tutar * kdvoran;
-        kdvtutar = tutar + kdvmiktar;
+        kdvOran = (tutar >= 1000) ? 0.08 : 0.18;
+        kdvMiktar = tutar * kdvOran;
+        kdvTutar = tutar + kdvMiktar;
 
         // Sonuçlar
         System.out.println("KDV'siz tutar: "+tutar);
-        System.out.println("KDV oranı: "+kdvoran);
-        System.out.println("KDV miktarı: "+kdvmiktar);
-        System.out.println("KDV'li tutar: "+kdvtutar);
+        System.out.println("KDV oranı: "+kdvOran);
+        System.out.println("KDV miktarı: "+kdvMiktar);
+        System.out.println("KDV'li tutar: "+kdvTutar);
     }
 }
