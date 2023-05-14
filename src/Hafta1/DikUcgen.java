@@ -1,7 +1,7 @@
 package Hafta1;
 import java.util.Scanner;
 
-public class Hipotenus {
+public class DikUcgen {
     public static void main(String[] args) {
         //Değişken tanımlama
         double a, b, c, cevre, alan;
