@@ -1,7 +1,7 @@
 package Hafta1;
 import java.util.Scanner;
 
-public class Pratik1NotOrtalamasi {
+public class NotOrtalamasi {
     public static void main(String[] args) {
         //Değişkenleri oluşturuyoruz
         int mat, fizik, kimya, turkce, tarih, muzik;
