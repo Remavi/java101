@@ -5,7 +5,6 @@ public class KombinasyonHesaplama {
     public static void main(String[] args) {
         //Değişken tanımlama
         int n, r, nr, nFaktoriyel = 1, rFaktoriyel = 1, nrFaktoriyel = 1;
-        double kombinasyon;
 
         //Kullanıcıdan n ve r değerlerini alıyoruz
         Scanner input = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class KombinasyonHesaplama {
         }
 
         //Kombinasyon formülünü uyguluyoruz
-        kombinasyon = nFaktoriyel / (rFaktoriyel * nrFaktoriyel);
+        double kombinasyon = nFaktoriyel / (rFaktoriyel * nrFaktoriyel);
         System.out.println("Girilen n ve r sayılarının kombinasyonu: "+kombinasyon);
     }
 }
