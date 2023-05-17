@@ -16,9 +16,9 @@ public class MukemmelSayi {
         }
 
         if (toplam == sayi){ //Girilen sayının kendisi hariç çarpanları toplamı kendisine eşit mi kontrol ediyoruz
-            System.out.println(sayi+ " bir mükemmel sayıdır.");
+            System.out.println(sayi+ " mükemmel sayıdır.");
         } else {
-            System.out.println(sayi+" bir mükemmel sayı değildir.");
+            System.out.println(sayi+" mükemmel sayı değildir.");
         }
     }
 }
