@@ -7,7 +7,7 @@ public class AsalSayilar {
             int k;
             for (k = 2; k < i; k++){ //Artan sayılardan asal olanları tespit etmek için
                 if (i % k ==0){
-                    break; 
+                    break;
                 }
             }
             if (i == k){
