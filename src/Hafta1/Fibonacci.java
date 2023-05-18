@@ -7,15 +7,15 @@ public class Fibonacci {
         //Değişken tanımlama ve kullanıcıdna veri alma
         Scanner input = new Scanner(System.in);
         System.out.print("Eleman sayısını girin: ");
-        int sayi = input.nextInt();
-        int suan= 1, onceki = 0, sonraki = suan + onceki;
-        System.out.print(onceki+ " "+ suan);
+        int n = input.nextInt();
+        int current= 1, previous = 0, next = current + previous;
+        System.out.print(previous+ " "+ current);
 
-        for (int i = 1; i < sayi; i++){
-            sonraki = suan + onceki;
-            onceki = suan;
-            suan = sonraki;
-            System.out.print(" "+sonraki);
+        for (int i = 1; i < n; i++){
+            next = current + previous;
+            previous = current;
+            current = next;
+            System.out.print(" "+next);
         }
     }
 }
