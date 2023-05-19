@@ -1,5 +1,4 @@
-package Hafta2;
-
+package Hafta2.UsluRecursive;
 import java.util.Scanner;
 
 public class UsluRecursive {
