@@ -23,9 +23,9 @@ public class AsalRecursive {
 
 
         if (isPrime(number,2)){
-            System.out.println("Asal");
+            System.out.println(number+" sayısı asal!");
         } else {
-            System.out.println("Asal değil!");
+            System.out.println(number+ " sayısı asal değil!");
         }
     }
 }
