@@ -151,7 +151,7 @@ public class GelismisHesapMakinesi {
                 + "8- Dikdörtgen Alan ve Çevre Hesabı\n"
                 + "9- Menü\n"
                 + "0- Çıkış Yap";
-        
+
         System.out.println(menu);
 
         while (true) {
