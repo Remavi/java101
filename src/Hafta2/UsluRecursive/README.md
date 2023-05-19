@@ -1,0 +1,1 @@
+"Recursive" metot kullanarak taban ve üs değerleri kullanıcıdan alınan üs alma işlemi yapan program.
