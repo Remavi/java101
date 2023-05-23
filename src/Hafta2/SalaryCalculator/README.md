@@ -1,0 +1,1 @@
+Java ile yazılmış, bir fabrikada çalışan kişilerin maaşlarını hesaplayan program.
