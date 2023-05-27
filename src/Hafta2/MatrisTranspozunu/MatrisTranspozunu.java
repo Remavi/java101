@@ -1,7 +1,5 @@
 package Hafta2.MatrisTranspozunu;
 
-import java.util.Arrays;
-
 public class MatrisTranspozunu {
     public static void main(String[] args) {
         int[][] matrix = { //Matris
